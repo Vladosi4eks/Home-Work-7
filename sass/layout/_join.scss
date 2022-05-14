@@ -1,0 +1,15 @@
+.join {
+    margin-left: 70px;
+    margin-right: 93px;
+    width: 206px;
+    height: 80px;
+    &__title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--whtie-color);
+        margin-bottom: 20px;
+    }
+}

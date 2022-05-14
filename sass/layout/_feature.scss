@@ -1,0 +1,31 @@
+.feature-list {
+    display: flex;
+    &__subtitle {
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.15;
+        text-transform: uppercase;
+        color: var(--black-color);
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    &__item {
+        width: 270px;
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+    }
+    &__icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        background-color: var(--background-icons);
+        margin-bottom: 30px;
+        border-radius: 4px;
+    }
+}

@@ -12,8 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
@@ -59,7 +57,7 @@
         <!--Герой, главный банер-->
         <section class="section-hero">
             <div class="container">
-                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+                <h1 class="section-hero__title">Эффективные решения для вашего бизнеса</h1>
                 <button type="button" class="button" data-modal-open>Заказать услугу</button>
             </div>
         </section>
@@ -68,42 +66,42 @@
         <section class="section">
             <div class="container">
                 <h2 class="nodisplay">Преимущество</h2>
-                <ul class="feature">
-                    <li class="feature__item">
-                        <div class="feature__icon">
+                <ul class="feature-list">
+                    <li class="feature-list__item">
+                        <div class="feature-list__icon">
                             <svg width="70px" height="70px">
                                 <use href="./images/symbol-defs.svg#icon-antena"></use>
                             </svg>
                         </div>
-                        <h3 class="feature__subtitle">Внимание к деталям</h3>
-                        <p class="feature__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h3 class="feature-list__subtitle">Внимание к деталям</h3>
+                        <p class="feature-list__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="feature__item">
-                        <div class="feature__icon">
+                    <li class="feature-list__item">
+                        <div class="feature-list__icon">
                             <svg width="70px" height="70px">
                                 <use href="./images/symbol-defs.svg#icon-clock"></use>
                             </svg>
                         </div>
-                        <h3 class="feature__subtitle">Пунктуальность</h3>
-                        <p class="feature__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h3 class="feature-list__subtitle">Пунктуальность</h3>
+                        <p class="feature-list__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="feature__item">
-                        <div class="feature__icon">
+                    <li class="feature-list__item">
+                        <div class="feature-list__icon">
                             <svg width="70px" height="70px">
                                 <use href="./images/symbol-defs.svg#icon-diagram"></use>
                             </svg>
                         </div>
-                        <h3 class="feature__subtitle">Планирование</h3>
-                        <p class="feature__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h3 class="feature-list__subtitle">Планирование</h3>
+                        <p class="feature-list__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="feature__item">
-                        <div class="feature__icon">
+                    <li class="feature-list__item">
+                        <div class="feature-list__icon">
                             <svg width="70px" height="70px">
                                 <use href="./images/symbol-defs.svg#icon-astronavt"></use>
                             </svg>
                         </div>
-                        <h3 class="feature__subtitle">Современные технологии</h3>
-                        <p class="feature__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h3 class="feature-list__subtitle">Современные технологии</h3>
+                        <p class="feature-list__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>
@@ -113,18 +111,18 @@
         <section class="activities section">
             <div class="container">
                 <h2 class="activities__title">Чем мы занимаемся</h2>
-                <ul class="activities__list">
-                    <li class="activities__item">
+                <ul class="activities-list">
+                    <li class="activities-list__item">
                         <img src="./images/our-activities-01.jpg" alt="Программист за ноутбуком" width="370" height="294">
-                        <p class="activities__text">Десктопные приложения</p>
+                        <p class="activities-list__text">Десктопные приложения</p>
                     </li>
-                    <li class="activities__item">
+                    <li class="activities-list__item">
                         <img src="./images/our-activities-02.jpg" alt="Разработка дизайна смартфона" width="370" height="294">
-                        <p class="activities__text">Мобильные приложения</p>
+                        <p class="activities-list__text">Мобильные приложения</p>
                     </li>
-                    <li class="activities__item">
+                    <li class="activities-list__item">
                         <img src="./images/our-activities-03.jpg" alt="Цветокоррекция с планшета" width="370" height="294">
-                        <p class="activities__text">Дизайнерские решения</p>
+                        <p class="activities-list__text">Дизайнерские решения</p>
                     </li>
                 </ul>
             </div>
@@ -134,12 +132,12 @@
         <section class="comand section">
             <div class="container">
                 <h2 class="comand__title">Наша команда</h2>
-                <ul class="comand__list">
-                    <li class="comand__item">
-                        <img src="./images/our-comands-01.jpg" alt="Фото Игоря Демьяненко" width="270" height="260" class="comand__img">
-                        <h3 class="comand__name">Игорь Демьяненко</h3>
-                        <p class="comand__text" lang="EN">Product Designer</p>
-                        <div class="comand__soc">
+                <ul class="comand-list">
+                    <li class="comand-list__item">
+                        <img src="./images/our-comands-01.jpg" alt="Фото Игоря Демьяненко" width="270" height="260" class="comand-list__img">
+                        <h3 class="comand-list__name">Игорь Демьяненко</h3>
+                        <p class="comand-list__text" lang="EN">Product Designer</p>
+                        <div class="comand-list__soc">
                             <ul class="soc-list">
                                 <li class="soc-list__item">
                                     <a href="" class="soc-list__link">
@@ -172,11 +170,11 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="comand__item">
-                        <img src="./images/our-comands-02.jpg" alt="Фото Ольга Репина" width="270" height="260" class="comand__img">
-                        <h3 class="comand__name">Ольга Репина</h3>
-                        <p class="comand__text" lang="EN">Frontend Developer</p>
-                        <div class="comand__soc">
+                    <li class="comand-list__item">
+                        <img src="./images/our-comands-02.jpg" alt="Фото Ольга Репина" width="270" height="260" class="comand-list__img">
+                        <h3 class="comand-list__name">Ольга Репина</h3>
+                        <p class="comand-list__text" lang="EN">Frontend Developer</p>
+                        <div class="comand-list__soc">
                             <ul class="soc-list">
                                 <li class="soc-list__item">
                                     <a href="" class="soc-list__link">
@@ -209,11 +207,11 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="comand__item">
-                        <img src="./images/our-comands-03.jpg" alt="Фото Николай Тарасов" width="270" height="260" class="comand__img">
-                        <h3 class="comand__name">Николай Тарасов</h3>
-                        <p class="comand__text" lang="EN">Marketing</p>
-                        <div class="comand__soc">
+                    <li class="comand-list__item">
+                        <img src="./images/our-comands-03.jpg" alt="Фото Николай Тарасов" width="270" height="260" class="comand-list__img">
+                        <h3 class="comand-list__name">Николай Тарасов</h3>
+                        <p class="comand-list__text" lang="EN">Marketing</p>
+                        <div class="comand-list__soc">
                             <ul class="soc-list">
                                 <li class="soc-list__item">
                                     <a href="" class="soc-list__link">
@@ -246,11 +244,11 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="comand__item">
-                        <img src="./images/our-comands-04.jpg" alt="Фото Михаил Ермаков" width="270" height="260" class="comand__img">
-                        <h3 class="comand__name">Михаил Ермаков</h3>
-                        <p class="comand__text" lang="EN">UI Designer</p>
-                        <div class="comand__soc">
+                    <li class="comand-list__item">
+                        <img src="./images/our-comands-04.jpg" alt="Фото Михаил Ермаков" width="270" height="260" class="comand-list__img">
+                        <h3 class="comand-list__name">Михаил Ермаков</h3>
+                        <p class="comand-list__text" lang="EN">UI Designer</p>
+                        <div class="comand-list__soc">
                             <ul class="soc-list">
                                 <li class="soc-list__item">
                                     <a href="" class="soc-list__link">
@@ -291,45 +289,45 @@
         <section class="section">
             <div class="container">
                 <h2 class="client__title">Постоянные клиенты</h2>
-                <ul class="client__list">
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg width="106px" height="60px" class="client__icon">
+                <ul class="client-list">
+                    <li class="client-list__item">
+                        <a href="" class="client-list__link">
+                            <svg width="106px" height="60px" class="client-list__icon">
                                 <use href="./images/symbol-defs.svg#icon-client-1"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg width="106px" height="60px" class="client__icon">
+                    <li class="client-list__item">
+                        <a href="" class="client-list__link">
+                            <svg width="106px" height="60px" class="client-list__icon">
                                 <use href="./images/symbol-defs.svg#icon-client-2"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg width="106px" height="60px" class="client__icon">
+                    <li class="client-list__item">
+                        <a href="" class="client-list__link">
+                            <svg width="106px" height="60px" class="client-list__icon">
                                 <use href="./images/symbol-defs.svg#icon-client-3"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg width="106px" height="60px" class="client__icon">
+                    <li class="client-list__item">
+                        <a href="" class="client-list__link">
+                            <svg width="106px" height="60px" class="client-list__icon">
                                 <use href="./images/symbol-defs.svg#icon-client-4"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg width="106px" height="60px" class="client__icon">
+                    <li class="client-list__item">
+                        <a href="" class="client-list__link">
+                            <svg width="106px" height="60px" class="client-list__icon">
                                 <use href="./images/symbol-defs.svg#icon-client-5"></use>
                             </svg>
                         </a>
                     </li>
-                    <li class="client__item">
-                        <a href="" class="client__link">
-                            <svg width="106px" height="60px" class="client__icon">
+                    <li class="client-list__item">
+                        <a href="" class="client-list__link">
+                            <svg width="106px" height="60px" class="client-list__icon">
                                 <use href="./images/symbol-defs.svg#icon-client-6"></use>
                             </svg>
                         </a>
@@ -345,10 +343,10 @@
             <div class="footer__address">
                 <a href="./index.html" class="logo footer__logo"><span class="logo__span">Web</span>Studio</a>
                 <address class="address">
-                    <ul class="address__list">
-                        <li class="address__item"><a href="https://goo.gl/maps/5TQvAHyAd7hzLQ32A" class="link-white">г. Киев, пр-т Леси Украинки, 26</a></li>
-                        <li class="address__item"><a href="mailto:info@devstudio.com" class="link-grey">info@devstudio.com</a></li>
-                        <li class="address__item"><a href="tel:+38096111111" class="link-grey">+38 096 111 11 11</a></li>
+                    <ul class="address-list">
+                        <li class="address-list__item"><a href="https://goo.gl/maps/5TQvAHyAd7hzLQ32A" class="link-white">г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li class="address-list__item"><a href="mailto:info@devstudio.com" class="link-grey">info@devstudio.com</a></li>
+                        <li class="address-list__item"><a href="tel:+38096111111" class="link-grey">+38 096 111 11 11</a></li>
                     </ul>
                 </address>
             </div>
