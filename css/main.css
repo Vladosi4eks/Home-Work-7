@@ -751,6 +751,10 @@ textarea::placeholder {
   margin-bottom: 9px;
 }
 
+.address {
+  font-style: normal;
+}
+
 .address__link {
   font-style: normal;
   font-size: 14px;
