@@ -16,6 +16,11 @@
     transform: translate(-50%, -50%) scale(2);
 }
 
+textarea {
+    resize: none;
+    padding: 12px 16px;
+}
+
 .modal__button {
     position: absolute;
     top: 8px;
