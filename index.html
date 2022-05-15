@@ -110,7 +110,7 @@
         <!--Наша деятельность-->
         <section class="activities section">
             <div class="container">
-                <h2 class="activities__title">Чем мы занимаемся</h2>
+                <h2 class="section__title">Чем мы занимаемся</h2>
                 <ul class="activities-list">
                     <li class="activities-list__item">
                         <img src="./images/our-activities-01.jpg" alt="Программист за ноутбуком" width="370" height="294">
@@ -131,7 +131,7 @@
         <!--Наша команда-->
         <section class="comand section">
             <div class="container">
-                <h2 class="comand__title">Наша команда</h2>
+                <h2 class="section__title">Наша команда</h2>
                 <ul class="comand-list">
                     <li class="comand-list__item">
                         <img src="./images/our-comands-01.jpg" alt="Фото Игоря Демьяненко" width="270" height="260" class="comand-list__img">
@@ -288,7 +288,7 @@
         <!-- Постоянные клиенты -->
         <section class="section">
             <div class="container">
-                <h2 class="client__title">Постоянные клиенты</h2>
+                <h2 class="section__title">Постоянные клиенты</h2>
                 <ul class="client-list">
                     <li class="client-list__item">
                         <a href="" class="client-list__link">
@@ -344,39 +344,39 @@
                 <a href="./index.html" class="logo footer__logo"><span class="logo__span">Web</span>Studio</a>
                 <address class="address">
                     <ul class="address-list">
-                        <li class="address-list__item"><a href="https://goo.gl/maps/5TQvAHyAd7hzLQ32A" class="link-white">г. Киев, пр-т Леси Украинки, 26</a></li>
-                        <li class="address-list__item"><a href="mailto:info@devstudio.com" class="link-grey">info@devstudio.com</a></li>
-                        <li class="address-list__item"><a href="tel:+38096111111" class="link-grey">+38 096 111 11 11</a></li>
+                        <li class="address-list__item"><a href="https://goo.gl/maps/5TQvAHyAd7hzLQ32A" class="address__link-start">г. Киев, пр-т Леси Украинки, 26</a></li>
+                        <li class="address-list__item"><a href="mailto:info@devstudio.com" class="address__link">info@devstudio.com</a></li>
+                        <li class="address-list__item"><a href="tel:+38096111111" class="address__link">+38 096 111 11 11</a></li>
                     </ul>
                 </address>
             </div>
             <div class="join">
-                <h2 class="join__title">ПРИСОЕДИНЯЙТЕСЬ</h2>
-                <ul class="soc-list">
-                    <li class="soc-list__item">
-                        <a href="" class="soc-list__link">
-                            <svg width="20px" height="20px" class="soc-list__icon">
+                <h2 class="footer__title">ПРИСОЕДИНЯЙТЕСЬ</h2>
+                <ul class="join-list">
+                    <li class="join-list__item">
+                        <a href="" class="join-list__link">
+                            <svg width="20px" height="20px" class="join-list__icon">
                                     <use href="./images/symbol-defs.svg#icon-instagram"></use>
                                 </svg>
                         </a>
                     </li>
-                    <li class="soc-list__item">
-                        <a href="" class="soc-list__link">
-                            <svg width="20px" height="20px" class="soc-list__icon">
+                    <li class="join-list__item">
+                        <a href="" class="join-list__link">
+                            <svg width="20px" height="20px" class="join-list__icon">
                                     <use href="./images/symbol-defs.svg#icon-twitter"></use>
                                 </svg>
                         </a>
                     </li>
-                    <li class="soc-list__item">
-                        <a href="" class="soc-list__link">
-                            <svg width="20px" height="20px" class="soc-list__icon">
+                    <li class="join-list__item">
+                        <a href="" class="join-list__link">
+                            <svg width="20px" height="20px" class="join-list__icon">
                                     <use href="./images/symbol-defs.svg#icon-facebook"></use>
                                 </svg>
                         </a>
                     </li>
-                    <li class="soc-list__item">
-                        <a href="" class="soc-list__link">
-                            <svg width="20px" height="20px" class="soc-list__icon">
+                    <li class="join-list__item">
+                        <a href="" class="join-list__link">
+                            <svg width="20px" height="20px" class="join-list__icon">
                                     <use href="./images/symbol-defs.svg#icon-linkedin2"></use>
                                 </svg>
                         </a>
@@ -384,12 +384,12 @@
                 </ul>
             </div>
             <div class="subscribes">
-                <h2 class="subscribes__title">Подпишитесь на рассылку</h2>
+                <h2 class="footer__title">Подпишитесь на рассылку</h2>
                 <form class="subscribes-form">
                     <input type="email" name="email" class="subscribes-form__input" placeholder="E-mail">
-                    <button type="submit" class="button subscribes-form__button">
+                    <button type="submit" class="button subscribes-button">
                          Подписаться
-                        <svg width="24" height="24" class="subscribes-form__icon">
+                        <svg width="24" height="24" class="subscribes-button__icon">
                             <use href="./images/symbol-defs.svg#icon-send" />
                         </svg>
                     </button>
@@ -400,7 +400,7 @@
     </footer>
 
     <!-- Модальное окно -->
-    <div class="backdrop is-hidden" data-modal>
+    <div class="modal is-hidden" data-modal>
         <div class="modal__product">
             <button type="button" class="modal__button" data-modal-close>
                 <svg class="modal__close" width="11px" height="11px">
